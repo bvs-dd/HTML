@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Tutorial</title>
+
+    <style>
+        .tags{
+            font-family: 'Arial Black';
+            font-size: 15px;
+        }
+        .p-common{
+            font-family: sans-serif;
+        }
+        .colortext {
+            color: black; /* Черный цвет выделения */
+        }
+        .tab {
+            margin-left: 40px;
+        }
+        .tablica {
+            display: table;
+            border-spacing: 3px 3px;
+            font-family: sans-serif;
+        }
+
+        .yacheika {
+            display: table-cell;
+            padding: 3px;
+            background: lightgrey;
+            font-size: 14px;
+            color: lightseagreen;
+            font-family: sans-serif;
+        }
+        .cod {
+            color: brown;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<h1 style="text-align: center; font-family: sans-serif">HTML Tutorial</h1>
+
+<hr/>
+
+<h2 style="text-align: center; font-family: sans-serif">What is HTML?</h2>
+
+<p class="p-common"><span style="font-family: 'Arial Black'; font-size: 15px">Hypertext Markup Language</span>
+    <span class="tags"><abbr title="HyperText Markup Language">(HTML)</abbr></span>
+    is the standard markup language for creating web pages and web applications.
+</p>
+
+<p class="p-common">Web browsers receive <abbr title="HyperText Markup Language">HTML</abbr> documents
+    from a web server or from local storage and render the documents into multimedia web pages.
+    <abbr title="HyperText Markup Language">HTML</abbr> describes the structure of a web page semantically
+    and originally included cues for the appearance of the document.
+</p>
+
+<p class="p-common"><abbr title="HyperText Markup Language">HTML</abbr> elements are the building blocks of
+    <abbr title="HyperText Markup Language">HTML</abbr> pages. With
+    <abbr title="HyperText Markup Language">HTML</abbr> constructs, images and other objects such as interactive forms
+    may be embedded into the rendered page.
+    <abbr title="HyperText Markup Language">HTML</abbr> provides a means to create structured documents by denoting
+    structural semantics for text such as headings, paragraphs, lists, links, quotes and other items.
+    <abbr title="HyperText Markup Language">HTML</abbr> elements are delineated by
+    <dfn>tags</dfn>, written using angle brackets.
+    Tags such as <code style="color: brown; font-size: 17px">&lt;img/&gt;</code>
+    and <code style="color: brown; font-size: 17px">&lt;input/&gt;</code> directly introduce content into the page.
+    Other tags such as <code style="color: brown; font-size: 17px">&lt;p&gt;</code>  surround and provide information
+    about document text and may include other tags as sub-elements. Browsers do not display the
+    <abbr title="HyperText Markup Language">HTML</abbr> tags, but use them to interpret the content of the page.
+</p>
+
+<hr/>
+
+<h2 style="text-align: center; font-family: sans-serif">Markup</h2>
+
+<p class="p-common"><abbr title="HyperText Markup Language">HTML</abbr> markup consists of several key components,
+    including those called <dfn>tags</dfn> (and their <dfn>attributes</dfn>), character-based
+    <dfn>data types, character references</dfn> and <dfn>entity references</dfn>.
+    <abbr title="HyperText Markup Language">HTML</abbr> tags most commonly come in pairs like
+    <code style="color: brown; font-size: 17px">&lt;h1&gt;</code> and
+    <code style="color: brown; font-size: 17px">&lt;/h1&gt;</code>, although some represent
+    <dfn>empty elements</dfn> and so are unpaired, for example
+    <code style="color: brown; font-size: 17px">&lt;img&gt;</code>. The first tag in such a pair is the
+    <dfn>start tag</dfn>, and the second is the
+    <dfn>end tag</dfn> (they are also called
+    <dfn>opening tags</dfn> and
+    <dfn>closing tags</dfn>).
+</p>
+
+<p class="p-common"> Another important component is the
+    <abbr title="HyperText Markup Language">HTML</abbr>
+    <dfn>document type declaration</dfn>, which triggers standards mode rendering.
+</p>
+
+<p class="p-common">The following is an example of the classic "Hello, World!" program:
+</p>
+
+<div style="background-color: lightgrey">
+    <p class="tab">
+        <br/>
+        <code class="cod">&lt;!DOCTYPE html&gt;</code>
+        <br/><code class="cod">&lt;html&gt;</code>
+        <br/><code class="cod">&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;</code>
+        <br/><code class="cod">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;<span class="colortext">This is a title</span>&lt;/title&gt;</code>
+        <br/><code class="cod">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;</code>
+        <br/><code class="cod">&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</code>
+        <br/><code class="cod">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="colortext">Hello world!</span>&lt;/p&gt;</code>
+        <br/><code class="cod">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;</code>
+        <br/><code class="cod">&lt;/html&gt;</code>
+        <br/>&nbsp;
+    </p>
+</div>
+
+<hr/>
+
+<div class="tablica">
+    <div style="font-weight: bold">Tags:</div>
+    <div class="yacheika">CodingScripting</div>
+    <div class="yacheika">head</div>
+    <div class="yacheika">HTML</div>
+    <div class="yacheika">Introduction to HTML</div>
+    <div class="yacheika">Landing</div>
+    <div class="yacheika">Links semantics</div>
+    <div class="yacheika">Structure</div>
+    <div class="yacheika">Text</div>
+</div>
+
+</body>
+</html>
